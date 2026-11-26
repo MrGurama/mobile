@@ -1,0 +1,172 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    color: #2b3040;
+    text-align: center;
+  }
+
+  h1, h2, h3 {
+    font-weight: 500;
+  }
+
+  p {
+    color: #9a9fa9;
+    font-size: 14px;
+    line-height: 1.8;
+  }
+
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 20px 60px;
+   
+ 
+  }
+
+  .logo {
+    width: 80px;
+    margin-bottom: 50px;
+  }
+
+  .header h1 {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+
+  .header p {
+    max-width: 440px;
+  }
+
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+  }
+
+  .btn {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    padding: 12px 22px;
+    border-radius: 30px;
+  }
+
+  .green {
+    background: #21c2a0;
+    box-shadow: 0 8px 16px rgba(33, 194, 160, 0.35);
+  }
+
+  .blue {
+    background: #5b63f0;
+    box-shadow: 0 8px 16px rgba(91, 99, 240, 0.35);
+  }
+
+  
+  .section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 20px 20px;
+  }
+
+  .section h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  .section p {
+    max-width: 440px;
+  }
+
+  .monitor-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+  }
+
+  .monitor-img {
+    width: 450px;
+  }
+
+  .features {
+    max-width: 260px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .features h3 {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+
+  .features p {
+    font-size: 11px;
+  }
+
+
+  .devices {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px 60px;
+  }
+
+  .devices-img {
+    width: 520px;
+  }
+
+ 
+  .workflow {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 40px 20px 60px;
+  }
+
+  .workflow div {
+    flex: 1;
+  }
+
+  .workflow h3 {
+    font-size: 16px;
+  }
+
+  
+  .companies {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+   padding: 40px 20px 60px;
+  }
+
+  .companies img {
+    height: 40px;
+    width: auto;
+  }
+
+  @media (max-width: 700px) {
+     .monitor-row{
+        flex-direction: column;
+     } 
+  }
